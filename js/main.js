@@ -180,6 +180,11 @@ createRestaurantHTML = (restaurant) => {
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
+
+  // added 08.26.18
+  more.tabIndex = '3';
+  // end added
+
   li.append(more)
 
   return li
