@@ -6,6 +6,16 @@ let restaurants,
 var newMap
 var markers = []
 
+// added 09.17.18
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./service-worker.js').then(function(success) {
+    console.log('Service Worker Registered!')
+  }).catch(function(fail) {
+    console.log('Service Worker Failed!', fail)
+  });
+}
+// end added
+
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
  */
