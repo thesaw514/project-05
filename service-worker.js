@@ -1,4 +1,4 @@
-// Theodore Sawyer, FEND - Project 05: 'Restaurant Reviews - Stage 1' / service-worker.js / 09.17.
+// Theodore Sawyer, FEND - Project 05: 'Restaurant Reviews - Stage 1' / service-worker.js / 09.17.18
 
 const cacheVersion = 'cache-version-01';
 const cacheFiles = [
