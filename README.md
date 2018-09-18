@@ -13,20 +13,20 @@
 
 ### `Description`
 
-Welcome to Project 05 of the Udacity Front-End Developer Nanodegree program. In this project, students are tasked with converting a poorly implemented static webpage created for local restaurant reviews to a mobile-ready web application.  During 'Stage One' of development, students begin with a static design that lacks accessibility with the goal of converting the web application to be fully responsive on different sized displays and accessible for screen reader use as well. Students will also begin converting this to a Progressive Web Application by caching some assets for offline use using the Cache API and a ServiceWorker.
+Welcome to Project 05 of the Udacity Front-End Developer Nanodegree program. In this project, students are tasked with converting a well intended (but rather poorly implemented) static webpage created for local restaurant reviews to a mobile-ready web application.  During 'Stage One' of development, students begin with a static design that lacks accessibility with the overall goals being to convert the web application to be fully responsive on different sized displays and make it accessible for screen reader use as well. Students will also begin converting this to a Progressive Web Application by caching assets for offline use using the Cache API and a ServiceWorker.
 
 ### `Instructions`
 
 To run the project:
-- Clone or download the project files to your local desktop.
-- Launch a local client server from within the project directory:  
-example using Python: `python -m SimpleHTTPServer 8000`  
-- Open favorite web browser and visit: `http://localhost:8000`
+- Clone (or download) the .zip project files folder to your local desktop.
+- Launch a local client server from the terminal (within the project directory):  
+Example (using Python): `python -m SimpleHTTPServer 8000`  
+- Open your favorite web browser and visit: `http://localhost:8000`
 
 ### `Dependencies`
 
 [Leaflet](https://leafletjs.com/)  
-[MapBox API](https://www.mapbox.com/install/)
+[MapBox API](https://www.mapbox.com/)
 
 ### `Credits`
 
